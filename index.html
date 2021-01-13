@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <title>My Website</title>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="img/slime.png" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+
+    <body>
+        <nav>
+            <a href="./index.html">Home</a>
+        </nav>
+        <header>
+            <h1>jnarezo.github.io</h1>
+            Hosted by GitHub with <code>git push</code>.
+            <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">View markdown version</a>
+        </header>
+        <hr />
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    I think my <em>favorite</em> programming language is <b>C#</b> or <b>JavaScript</b>,<br>
+                    mostly because of the simple functional programming, lambdas,<br>
+                    and implementation of some <span class="red">C++</span> concepts (<i>specifically for C#</i>).
+                </p>
+
+                <strong>Here is also some of my favorite Pokemon</strong>:
+                <ul>
+                    <li>Mareep</li>
+                    <li>Pichu</li>
+                    <li>Breloom</li>
+                    <li>Glaceon</li>
+                    <li>Milotic</li>
+                </ul>
+                
+                But if I had to order them:
+                <ol>
+                    <li>Glaceon</li>
+                    <li>Mareep</li>
+                    <li>Breloom</li>
+                    <li>Milotic</li>
+                    <li>Pichu</li>
+                </ol>
+                <picture>
+                    <source srcset="img/slime.png" media="(min-width: 800px)">
+                    <img src="img/slime.png" alt="slimeDespair" />
+                </picture>
+            </section>
+            <section class="hobbies">
+                <h3>Things I Like to Do</h3>
+                <p>
+                    When I'm not programming. I enjoy a bit of the arts.
+                    Specifically, I enjoy making music and playing piano.
+                    One way I was able to incorporate my interest in language, music, and technology
+                    was creating a song using Vocaloid. One of my favorite singers is <strong>Yukari Yakuro</strong>,
+                    along with <strong>GUMI</strong>.
+                </p>
+
+                <p>
+                    This is a sample of a cover of Tsugihagi Staccato (継ぎ接ぎスタカット) by Yukari
+                    and something to train my listening skills:
+                    <audio controls src="res/sample.mp3"></audio>
+                </p>
+            </section>
+            <aside>
+                <h3>Things I want to do</h3>
+                <table>
+                    <caption>Things I want to do</caption>
+                    <colgroup>
+                        <col>
+                        <col class="red">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Want</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Drawing characters</th>
+                            <th>High</th>
+                        </tr>
+                        <tr>
+                            <th>Playing Piano</th>
+                            <th>Medium</th>
+                        </tr>
+                        <tr>
+                            <th>Improve code</th>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <template id="taskrow">
+                    <tr>
+                        <th class="task"></th>
+                        <th class="difficulty"></th>
+                    </tr>
+                </template>
+            </aside>
+            <section>
+                Bye~!
+                <figure>
+                    <img src="img/imout.gif" alt="I'm out.">
+                    <figcaption>Maji no Tabitabi</figcaption>
+                </figure>
+                <details>
+                    <summary>Technical Demos</summary>
+                    <video controls width="400" src="res/ThisIsFine.mp4"></video>
+                    <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                    <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+                        ctx.font = "30px Arial";
+                        ctx.fillText("Hello World", 10, 50);
+                    </script>
+                    <svg viewBox="0 0 200 200" stroke="red" fill="grey"><circle cx="50" cy="50" r="10" /></svg>
+                </details>
+            </section>
+        </main>
+        <hr />
+        <footer>
+            <pre>
+                               ████ ███
+                              ██▒▒▒█▒▒▒█
+                             ██▒        █
+                         ██████  ██ ██  █
+                        ██████   ██ ██  █
+                        ██▒▒▒█          ███
+                        ██▒▒▒▒▒▒   ▒  ██████
+                       ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███
+                      ██▒▒▒▒     ▒▒▒▒▒▒▒▒▒▒▒▒█
+                      ██▒▒▒       ▒▒▒▒▒▒▒█▒█▒██
+                       ██▒▒       ▒▒▒▒▒▒▒▒▒▒▒▒█
+                        ██▒▒     █▒▒▒▒▒▒▒▒▒▒▒▒█
+                        ███▒▒   ██▒▒▒▒▒▒▒▒▒▒▒▒█
+                         ███▒▒   █▒▒▒▒▒▒▒▒▒▒▒█
+                        ██▀█▒▒    █▒▒▒▒▒▒▒▒██
+                      ██▀██▒▒▒    █████████
+                    ██▀███▒▒▒▒    █▒▒██
+                █████████▒▒▒▒▒█   ██  ██
+                █▒▒▒▒▒▒█▒▒▒▒▒█    ████▒▒█
+                █▒▒▒▒▒▒█▒▒▒▒▒▒█   ███▒▒▒█
+                █▒▒▒▒▒▒█▒▒▒▒▒█    █▒▒▒▒▒█
+                ██▒▒▒▒▒█▒▒▒▒▒▒█   █▒▒▒███
+                 ██▒▒▒▒███████   ██████
+                  ██▒▒▒▒▒██     ██
+                   ██▒▒▒██     ██
+                    █████     ███
+                    █████▄   █████▄
+                  ▄█▓▓▓▓▓█▄ █▓▓▓▓▓█▄
+                  █▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓█
+                  █▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓█
+                  ▀████████▀▀███████▀
+            </pre>
+            Send me a message
+            <form action="" method="get" class="contact">
+                <div>
+                    <label for="name">Name:</label>
+                    <input class="name" type="text" />
+                </div>
+                <input type="number" />
+                <input type="url" />
+                <input type="date" />
+                <input type="time" />
+                <input type="email" />
+                <input type="tel" />
+                <input type="color" />
+                <input type="hidden" />
+                <div class="selectors">
+                    <select name="randomstuff" id="randoms">
+                        <optgroup class="choice">
+                            <option value="a"></option>
+                            <option value="b"></option>
+                            <option value="c"></option>
+                        </optgroup>
+                        <optgroup class="function">
+                            <option value="f"></option>
+                            <option value="g"></option>
+                            <option value="h"></option>
+                        </optgroup>
+                    </select>
+                </div>
+                <fieldset>
+                    <legend>Choose among these</legend>
+                    <input id="mob1" type="radio" name="mob1">
+                    <label for="mob1">Monster1</label>
+                    <input id="mob2" type="radio" name="mob2">
+                    <label for="mob2">Monster2</label>
+                    <input id="mob3" type="radio" name="mob3">
+                    <label for="mob3">Monster3</label>
+                </fieldset>
+                <datalist id="flavor">
+                    <option value="Chocolate"></option>
+                    <option value="Mint"></option>
+                    <option value="Vanilla"></option>
+                    <option value="Strawberry"></option>
+                </datalist>
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea>
+                <button>Randomize</button>
+                <input type="submit" />
+            </form>
+            CSE 110
+        </footer>
+    </body>
+</html>
