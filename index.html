@@ -175,18 +175,17 @@
                 <input type="color" />
                 <input type="hidden" />
                 <div class="selectors">
+                    <label for="choice">Choose a choice or function:</label>
                     <select name="randomstuff" id="randoms">
-                        <label for="choice">Multiple Choice:</label>
-                        <optgroup id="choice" class="choice">
-                            <option value="a">
-                            <option value="b">
-                            <option value="c">
+                        <optgroup id="choice" class="choice" label="Choices">
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
                         </optgroup>
-                        <label for="function">Choose a function:</label>
-                        <optgroup id="function" class="function">
-                            <option value="f">
-                            <option value="g">
-                            <option value="h">
+                        <optgroup id="function" class="function" label="Functions">
+                            <option value="f">f(x)</option>
+                            <option value="g">g(x)</option>
+                            <option value="h">h(g)</option>
                         </optgroup>
                     </select>
                 </div>
