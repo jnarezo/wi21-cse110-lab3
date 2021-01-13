@@ -111,7 +111,7 @@
                     <summary>Technical Demos</summary>
                     <video controls width="400" src="res/ThisIsFine.mp4"></video>
                     <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                     <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
@@ -161,10 +161,10 @@
                   ▀████████▀▀███████▀
             </pre>
             Send me a message
-            <form action="" method="get" class="contact">
+            <form action="sendmessage" method="get" class="contact">
                 <div>
                     <label for="name">Name:</label>
-                    <input class="name" type="text" />
+                    <input id="name" type="text" />
                 </div>
                 <input type="number" />
                 <input type="url" />
@@ -176,15 +176,17 @@
                 <input type="hidden" />
                 <div class="selectors">
                     <select name="randomstuff" id="randoms">
-                        <optgroup class="choice">
-                            <option value="a"></option>
-                            <option value="b"></option>
-                            <option value="c"></option>
+                        <label for="choice">Multiple Choice:</label>
+                        <optgroup id="choice" class="choice">
+                            <option value="a">
+                            <option value="b">
+                            <option value="c">
                         </optgroup>
-                        <optgroup class="function">
-                            <option value="f"></option>
-                            <option value="g"></option>
-                            <option value="h"></option>
+                        <label for="function">Choose a function:</label>
+                        <optgroup id="function" class="function">
+                            <option value="f">
+                            <option value="g">
+                            <option value="h">
                         </optgroup>
                     </select>
                 </div>
