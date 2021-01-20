@@ -114,3 +114,30 @@ header {
     top: 0;
     left: 200px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1000px 1000px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 4;
+    flex-grow: 4;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+    max-width: 60%;
+    min-width: 20%;
+}
