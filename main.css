@@ -17,6 +17,7 @@ body {
 }
 
 section {
+    display: block;
     height: 600px;
     width: 200mm;
     margin: auto;
@@ -36,7 +37,13 @@ figure {
     background-color: #ddd;
 }
 
+audio {
+    display: inline;
+    float: right;
+}
+
 img {
+    display: inline-block;
     margin-top: 2em;
     margin-right: auto;
     margin-bottom: 2ch;
@@ -70,4 +77,16 @@ pre {
 
 form.contact {
     background-color: azure;
+}
+
+input[type=email] {
+    background-color: red;
+}
+
+a:hover {
+    color: pink;
+}
+
+a::after {
+    color: inherit;
 }
