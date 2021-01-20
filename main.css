@@ -2,7 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 body {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0 50px 0 50px;
+    padding: 1cm 0 1in 0;
     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
     text-decoration: none;
     text-align: left;
+}
+
+section {
+    height: 600px;
+    width: 200mm;
+    margin: auto;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+img {
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 20ch;
+    margin-left: auto;
 }
