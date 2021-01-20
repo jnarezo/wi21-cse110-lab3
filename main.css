@@ -68,6 +68,7 @@ pre {
 }
 
 #myCanvas {
+    display: fixed;
     width: 100px;
 }
 
@@ -89,4 +90,27 @@ a:hover {
 
 a::after {
     color: inherit;
+}
+
+aside {
+    position: relative;
+    border-style: dashed;
+    border-color: greenyellow;
+    border-width: 8px;
+    border-radius: 8px;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+}
+
+footer {
+    position: static;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 200px;
 }
