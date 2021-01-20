@@ -68,6 +68,7 @@ pre {
 }
 
 #myCanvas {
+    display: fixed;
     width: 100px;
 }
 
@@ -89,4 +90,54 @@ a:hover {
 
 a::after {
     color: inherit;
+}
+
+aside {
+    position: relative;
+    border-style: dashed;
+    border-color: greenyellow;
+    border-width: 8px;
+    border-radius: 8px;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+}
+
+footer {
+    position: static;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1000px 1000px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 4;
+    flex-grow: 4;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+    max-width: 60%;
+    min-width: 20%;
 }
