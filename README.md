@@ -1,1 +1,1 @@
-# static-site-html
+Repo's Github Page: [https://jnarezo.github.io/wi21-cse110-lab3/](https://jnarezo.github.io/wi21-cse110-lab3/)
