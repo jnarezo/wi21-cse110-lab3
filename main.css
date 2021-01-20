@@ -16,7 +16,7 @@ body {
     color: #000000;
 }
 
-section + section {
+section {
     height: 600px;
     width: 200mm;
     margin: auto;
@@ -52,6 +52,22 @@ ul > li {
     color: brown;
 }
 
+li + li {
+    color: inherit;
+}
+
 pre {
     color:hsl(10, 25%, 0%, 25%)
+}
+
+#myCanvas {
+    width: 100px;
+}
+
+.hobbies {
+    background-color: aliceblue;
+}
+
+form.contact {
+    background-color: azure;
 }
