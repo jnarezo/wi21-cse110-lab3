@@ -1,19 +1,22 @@
 /* File made 01/19/21 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
 body {
     display: block;
     height: auto;
     width: 100%;
     margin: 0 50px 0 50px;
     padding: 1cm 0 1in 0;
-    color: black;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-decoration: none;
-    text-align: left;
+    color: #000000;
 }
 
-section {
+section + section {
     height: 600px;
     width: 200mm;
     margin: auto;
@@ -21,11 +24,34 @@ section {
     padding-right: 2rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
+    background-color: rgba(35, 35, 35, 0.05);
+}
+
+h1, h2, h3, h4 {
+    color: rgb(200, 25, 125);
+    font-family: Arial, 'Noto Sans JP', sans-serif;
+}
+
+figure {
+    background-color: #ddd;
 }
 
 img {
     margin-top: 2em;
     margin-right: auto;
-    margin-bottom: 20ch;
+    margin-bottom: 2ch;
     margin-left: auto;
+}
+
+img ~ figcaption {
+    color: hsl(10, 25%, 30%);
+    font-size: 0.8em;
+}
+
+ul > li {
+    color: brown;
+}
+
+pre {
+    color:hsl(10, 25%, 0%, 25%)
 }
